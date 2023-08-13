@@ -2,6 +2,12 @@
 	import { onMount } from "svelte";
 	import { Map }  from "@onsvisual/svelte-maps";
 	import maplibre from "maplibre-gl";
+	import { API_KEY } from './secret';
+
+	// dotenv.config();
+
+	// const API_KEY = process.env.API_KEY;
+	const styleURL = `https://api.maptiler.com/maps/streets/style.json?key=${API_KEY}`;
 
 	let map;
 	// State
@@ -14,9 +20,9 @@
 </script>
 
 <main>
-	<Map id="map" 
-		style="https://api.maptiler.com/maps/streets/style.json?key=YOUR_MAPTILER_API_KEY_HERE" 
-		location={{lng: 16.62662018, lat: 49.2125578, zoom: 14}} 
+	<Map id="map"
+		style={styleURL}
+		location={{lng: 16.62662018, lat: 49.2125578, zoom: 14}}
 		bind:map={map} bind:zoom={zoom} bind:center={center} />
 </main>
 
