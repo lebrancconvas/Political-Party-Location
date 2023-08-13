@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "code": {
+      "th": "พท",
+      "en": "PTP"
+    },
+    "name": {
+      "th": "เพื่อไทย",
+      "en": "Phue Thai"
+    },
+    "location": {
+      "description": "OAI Tower, 1770 ถนน เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง กรุงเทพมหานคร 10310",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 2,
+    "code": {
+      "th": "กก",
+      "en": "MFP"
+    },
+    "name": {
+      "th": "ก้าวไกล",
+      "en": "Move Forward"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 3,
+    "code": {
+      "th": "พปชร",
+      "en": "PPP"
+    },
+    "name": {
+      "th": "พลังประชารัฐ",
+      "en": "Palang Pracharath"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 4,
+    "code": "รทสช",
+    "name": {
+      "th": "รวมไทยสร้างชาติ",
+      "en": ""
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 5,
+    "code": {
+      "th": "",
+      "en": "BTP"
+    },
+    "name": {
+      "th": "ภูมิใจไทย",
+      "en": "Bhunjai Thai"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 6,
+    "code": {
+      "th": "ชพก",
+      "en": "CPKP"
+    },
+    "name": {
+      "th": "ชาติพัฒนากล้า",
+      "en": "Chart Pattana Kla"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 7,
+    "code": {
+      "th": "ชทพ",
+      "en": "CTPP"
+    },
+    "name": {
+      "th": "ชาติไทยพัฒนา",
+      "en": "Chart Thai Pattana"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 8,
+    "code": {
+      "th": "",
+      "en": ""
+    },
+    "name": {
+      "th": "ประชาชาติ",
+      "en": "Prachachart"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 9,
+    "code": {
+      "th": "ทสท",
+      "en": ""
+    },
+    "name": {
+      "th": "ไทยสร้างไทย",
+      "en": "Thai Sang Thai"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 10,
+    "code": {
+      "th": "สร",
+      "en": "TLP"
+    },
+    "name": {
+      "th": "เสรีรวมไทย",
+      "en": "Thai Liberal"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 11,
+    "code": {
+      "th": "",
+      "en": ""
+    },
+    "name": {
+      "th": "เป็นธรรม",
+      "en": ""
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 12,
+    "code": {
+      "th": "",
+      "en": ""
+    },
+    "name": {
+      "th": "เพื่อไทรวมพลัง",
+      "en": ""
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  },
+  {
+    "id": 13,
+    "code": {
+      "th": "ปชป",
+      "en": "DEM"
+    },
+    "name": {
+      "th": "ประชาธิปัตย์",
+      "en": "Democrat"
+    },
+    "location": {
+      "description": "",
+      "position": {
+        "lat": 0,
+        "long": 0
+      }
+    }
+  }
+]
