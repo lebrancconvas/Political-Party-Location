@@ -18,25 +18,25 @@ dependencies:
 devDependencies:
   '@rollup/plugin-commonjs':
     specifier: ^17.0.0
-    version: 17.0.0(rollup@2.3.4)
+    version: 17.0.0(rollup@2.30.0)
   '@rollup/plugin-node-resolve':
     specifier: ^11.0.0
-    version: 11.0.0(rollup@2.3.4)
+    version: 11.0.0(rollup@2.30.0)
   rollup:
-    specifier: ^2.3.4
-    version: 2.3.4
+    specifier: ^2.30.0
+    version: 2.30.0
   rollup-plugin-css-only:
     specifier: ^3.1.0
-    version: 3.1.0(rollup@2.3.4)
+    version: 3.1.0(rollup@2.30.0)
   rollup-plugin-livereload:
     specifier: ^2.0.0
     version: 2.0.0
   rollup-plugin-svelte:
     specifier: ^7.0.0
-    version: 7.0.0(rollup@2.3.4)(svelte@3.0.0)
+    version: 7.0.0(rollup@2.30.0)(svelte@3.0.0)
   rollup-plugin-terser:
     specifier: ^7.0.0
-    version: 7.0.0(rollup@2.3.4)
+    version: 7.0.0(rollup@2.30.0)
   svelte:
     specifier: ^3.0.0
     version: 3.0.0
@@ -155,38 +155,38 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: false
 
-  /@rollup/plugin-commonjs@17.0.0(rollup@2.3.4):
+  /@rollup/plugin-commonjs@17.0.0(rollup@2.30.0):
     resolution: {integrity: sha512-/omBIJG1nHQc+bgkYDuLpb/V08QyutP9amOrJRUSlYJZP+b/68gM//D8sxJe3Yry2QnYIr3QjR3x4AlxJEN3GA==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.30.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0(rollup@2.3.4)
+      '@rollup/pluginutils': 3.1.0(rollup@2.30.0)
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.2.3
       is-reference: 1.2.1
       magic-string: 0.25.9
       resolve: 1.22.4
-      rollup: 2.3.4
+      rollup: 2.30.0
     dev: true
 
-  /@rollup/plugin-node-resolve@11.0.0(rollup@2.3.4):
+  /@rollup/plugin-node-resolve@11.0.0(rollup@2.30.0):
     resolution: {integrity: sha512-8Hrmwjn1pLYjUxcv7U7IPP0qfnzEJWHyHE6CaZ8jbLM+8axaarJRB1jB6JgKTDp5gNga+TpsgX6F8iuvgOerKQ==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0(rollup@2.3.4)
+      '@rollup/pluginutils': 3.1.0(rollup@2.30.0)
       '@types/resolve': 1.17.1
       builtin-modules: 3.3.0
       deepmerge: 4.3.1
       is-module: 1.0.0
       resolve: 1.22.4
-      rollup: 2.3.4
+      rollup: 2.30.0
     dev: true
 
-  /@rollup/pluginutils@3.1.0(rollup@2.3.4):
+  /@rollup/pluginutils@3.1.0(rollup@2.30.0):
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -195,7 +195,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.3.4
+      rollup: 2.30.0
     dev: true
 
   /@rollup/pluginutils@4.2.1:
@@ -707,14 +707,14 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup-plugin-css-only@3.1.0(rollup@2.3.4):
+  /rollup-plugin-css-only@3.1.0(rollup@2.30.0):
     resolution: {integrity: sha512-TYMOE5uoD76vpj+RTkQLzC9cQtbnJNktHPB507FzRWBVaofg7KhIqq1kGbcVOadARSozWF883Ho9KpSPKH8gqA==}
     engines: {node: '>=10.12.0'}
     peerDependencies:
       rollup: 1 || 2
     dependencies:
       '@rollup/pluginutils': 4.2.1
-      rollup: 2.3.4
+      rollup: 2.30.0
     dev: true
 
   /rollup-plugin-livereload@2.0.0:
@@ -727,7 +727,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte@7.0.0(rollup@2.3.4)(svelte@3.0.0):
+  /rollup-plugin-svelte@7.0.0(rollup@2.30.0)(svelte@3.0.0):
     resolution: {integrity: sha512-cw4yv/5v1NQV3nPbpOJtikgkB+9mfSJaqKUdq7x5fVQJnwLtcdc2JOszBs5pBY+SemTs5pmJbdEMseEavbUtjQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -735,12 +735,12 @@ packages:
       svelte: '>=3.5.0'
     dependencies:
       require-relative: 0.8.7
-      rollup: 2.3.4
+      rollup: 2.30.0
       rollup-pluginutils: 2.8.2
       svelte: 3.0.0
     dev: true
 
-  /rollup-plugin-terser@7.0.0(rollup@2.3.4):
+  /rollup-plugin-terser@7.0.0(rollup@2.30.0):
     resolution: {integrity: sha512-p/N3lLiFusCjYTLfVkoaiRTOGr5AESEaljMPH12MhOtoMkmTBhIAfuadrcWy4am1U0vU4WTxO9fi0K09O4CboQ==}
     deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
     peerDependencies:
@@ -748,7 +748,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.10
       jest-worker: 26.6.2
-      rollup: 2.3.4
+      rollup: 2.30.0
       serialize-javascript: 4.0.0
       terser: 5.19.2
     dev: true
@@ -759,8 +759,8 @@ packages:
       estree-walker: 0.6.1
     dev: true
 
-  /rollup@2.3.4:
-    resolution: {integrity: sha512-8U9x54RCVhrUEV1zon4Pp8kokg1HM0fwzf5vkwe2/rOfyTClarx5e27kFlaoZ7ofJiazWkNQ+dgdG4HuZxkQ9A==}
+  /rollup@2.30.0:
+    resolution: {integrity: sha512-j4K1hUZfgFM03DUpayd3c7kZW+2wDbI6rj7ssQxpCpL1vsGpaM0vSorxBuePFwQDFq9O2DI6AOQbm174Awsq4w==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
