@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@onsvisual/svelte-maps": "^1.0.26",
+    "dotenv": "^16.3.1",
     "maplibre-gl": "^2.1.9",
     "sirv-cli": "^2.0.0"
   }
