@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@onsvisual/svelte-maps':
     specifier: ^1.0.26
-    version: 1.0.26(svelte@3.0.0)
+    version: 1.0.26(svelte@3.49.0)
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -36,13 +36,13 @@ devDependencies:
     version: 2.0.0
   rollup-plugin-svelte:
     specifier: ^7.0.0
-    version: 7.0.0(rollup@2.30.0)(svelte@3.0.0)
+    version: 7.0.0(rollup@2.30.0)(svelte@3.49.0)
   rollup-plugin-terser:
     specifier: ^7.0.0
     version: 7.0.0(rollup@2.30.0)
   svelte:
-    specifier: ^3.0.0
-    version: 3.0.0
+    specifier: ^3.49.0
+    version: 3.49.0
 
 packages:
 
@@ -145,13 +145,13 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: false
 
-  /@onsvisual/svelte-maps@1.0.26(svelte@3.0.0):
+  /@onsvisual/svelte-maps@1.0.26(svelte@3.49.0):
     resolution: {integrity: sha512-s0yAXxO1ITA3n/hW5QEkvm+D/w/tcEVADbS6SbfhS5i0+Cjv6JOR92tQ0WvTppHBpm7K1+TnRdNnuiEmuCrkUg==}
     peerDependencies:
       svelte: ^3.32.2
     dependencies:
       maplibre-gl: 2.1.9
-      svelte: 3.0.0
+      svelte: 3.49.0
     dev: false
 
   /@polka/url@1.0.0-next.21:
@@ -735,7 +735,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /rollup-plugin-svelte@7.0.0(rollup@2.30.0)(svelte@3.0.0):
+  /rollup-plugin-svelte@7.0.0(rollup@2.30.0)(svelte@3.49.0):
     resolution: {integrity: sha512-cw4yv/5v1NQV3nPbpOJtikgkB+9mfSJaqKUdq7x5fVQJnwLtcdc2JOszBs5pBY+SemTs5pmJbdEMseEavbUtjQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -745,7 +745,7 @@ packages:
       require-relative: 0.8.7
       rollup: 2.30.0
       rollup-pluginutils: 2.8.2
-      svelte: 3.0.0
+      svelte: 3.49.0
     dev: true
 
   /rollup-plugin-terser@7.0.0(rollup@2.30.0):
@@ -863,8 +863,9 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte@3.0.0:
-    resolution: {integrity: sha512-4QQ7eBuVw/t0kMSSjLCiAjQYTj7ZF0OtH24YOWtTrTJHTLd58gEAPZeKSGOYDXtwpcrMi4Cxo3MgEbdI1m4erg==}
+  /svelte@3.49.0:
+    resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
+    engines: {node: '>= 8'}
 
   /terser@5.19.2:
     resolution: {integrity: sha512-qC5+dmecKJA4cpYxRa5aVkKehYsQKc+AHeKl0Oe62aYjBL8ZA33tTljktDHJSaxxMnbI5ZYw+o/S2DxxLu8OfA==}
